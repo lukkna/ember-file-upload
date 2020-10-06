@@ -130,6 +130,8 @@ const component = BaseComponent.extend({
    */
   onfileadd: null,
 
+  onClick: null,
+
   for: computed({
     get() {
       return `file-input-${uuid.short()}`;

@@ -1,12 +1,13 @@
 <input
-  id={{for}}
-  type="file"
-  accept={{accept}}
-  capture={{capture}}
-  multiple={{multiple}}
-  disabled={{disabled}}
-  onchange={{action "change" value="target.files"}}
-  hidden
+    id={{for}}
+    type="file"
+    accept={{accept}}
+    capture={{capture}}
+    multiple={{multiple}}
+    disabled={{disabled}}
+    onclick={{onClick}}
+    onchange={{action "change" value="target.files"}}
+    hidden
 >
 
 {{~yield queue~}}
